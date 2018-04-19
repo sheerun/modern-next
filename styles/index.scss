@@ -1,0 +1,17 @@
+@import "~bulma/sass/utilities/initial-variables";
+$info: $blue;
+
+@import "~bulma";
+
+.editor {
+  .navbar-brand img {
+    filter: invert(100%);
+  }
+}
+
+.editor-container {
+  width: 300px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
